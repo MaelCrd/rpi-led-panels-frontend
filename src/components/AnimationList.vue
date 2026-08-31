@@ -126,10 +126,6 @@ const handleSelectButtonClick = (event, animationItem) => {
   flex-shrink: 0;
 }
 
-:deep(.p-progressspinner-circle) {
-  stroke: rgb(195, 104, 0) !important;
-}
-
 :deep(.p-dataview-content) {
   background: transparent !important;
 }
