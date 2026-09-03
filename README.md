@@ -4,12 +4,28 @@ This is the web-based frontend interface for the **[RPi LED Panels](https://gith
 
 It provides a user-friendly dashboard to remotely control the RGB LED matrix panels directly from a web browser. The frontend communicates with the C++ backend's REST API to switch animations, tweak configuration parameters, adjust brightness, and toggle the display state.
 
+> [!NOTE]
+> The UI is currently optimized for mobile viewports only. When viewing on desktop, using your browser's mobile emulation mode is recommended.
+
 ## Features
 
 - **Remote control:** Switch between available animations (Game of Life, Matrix, Heightmap, Particles, etc.) instantly.
 - **Parameter tuning:** Dynamically adjust animation-specific settings on the fly.
 - **System controls:** Change panel brightness or toggle the display on/off.
-- **Modern UI:** Built using Vue 3, Vite, and PrimeVue for a responsive and clean interface.
+- **Modern UI:** Built using Vue 3, Vite, and PrimeVue for a clean interface.
+
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center" width="50%"><b>Animations list</b></td>
+    <td align="center" width="50%"><b>Custom settings</b></td>
+  </tr>
+  <tr>
+    <td><img src=".github/assets/screen-list.png" width="100%"></td>
+    <td><img src=".github/assets/screen-custom.png" width="100%"></td>
+  </tr>
+</table>
 
 ## Prerequisites
 
