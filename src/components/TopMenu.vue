@@ -88,7 +88,7 @@ const { brightness, checked, animationsLoaded, isBackendAlive } =
 }
 
 :deep(.retry-message .p-message-content) {
-  padding: 0.85rem 1.2rem;
+  padding: 0.75rem 1.2rem;
   margin-top: 0.1rem;
 }
 </style>
