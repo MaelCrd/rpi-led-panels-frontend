@@ -1,8 +1,7 @@
 import axios from "axios";
 
 // API Base URL
-//const API_BASE_URL = "http://pi.local:8000";
-const API_BASE_URL = "http://192.168.1.63:8000";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || `http://${window.location.hostname}:8000`;
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,

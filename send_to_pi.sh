@@ -1,5 +1,5 @@
 echo "Building..."
-npm run build
+pnpm run build
 
 echo "Removing old files..."
 ssh root@pi "rm -rf /var/www/vue-app"
